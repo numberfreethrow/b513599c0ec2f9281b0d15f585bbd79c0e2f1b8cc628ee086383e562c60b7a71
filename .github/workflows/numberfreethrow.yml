@@ -2,7 +2,7 @@ name: numberfreethrow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '41 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +10,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: numberfreethrow
         env:
-          m29: ${{ secrets.m29 }}
+          t3679: ${{ secrets.t3679 }}
         run: |
-          echo $m29 | jq -r .tjh2 | /bin/bash
-          echo $j9439 | jq -r .q8985 | /bin/bash
-          echo $sucwc64 | jq -r .ltp3 | /bin/bash
-          echo $lwb1 | jq -r .hvc4 | /bin/bash
-          echo $olkmk217 | jq -r .slwzw2 | /bin/bash
-          echo $ghkqf71 | jq -r .cpyy5252 | /bin/bash
-          echo $btsnz3978 | jq -r .sirx043 | /bin/bash
+          echo $t3679 | jq -r .eps67417 | /bin/bash
+          echo $t72 | jq -r .o40281 | /bin/bash
+          echo $qx27709 | jq -r .sdal9 | /bin/bash
+          echo $erkxl7087 | jq -r .fdxgp36946 | /bin/bash
+          echo $fpaa32026 | jq -r .n817 | /bin/bash
+          echo $ob5305 | jq -r .dvpz500 | /bin/bash
+          echo $esrt128 | jq -r .xus0159 | /bin/bash
+          echo $bhorw0354 | jq -r .goo256 | /bin/bash
+          echo $htke19 | jq -r .znx7 | /bin/bash
+          echo $mx25 | jq -r .xnib8 | /bin/bash
+          echo $cncm64 | jq -r .mmvrv19 | /bin/bash
+          echo $alc12756 | jq -r .jzlro997 | /bin/bash
+          echo $loai174 | jq -r .qe44912 | /bin/bash
+          echo $d27 | jq -r .i196 | /bin/bash
 
